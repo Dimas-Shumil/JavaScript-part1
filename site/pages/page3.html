@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>JS part1</title>
+</head>
+
+<body>
+    <div class="header">
+        <ol>
+            <li>Введение</li>
+        </ol>
+        <ul class="header__nav">
+            <li class="header__nav-link"><a href="../../index.html" title="Введение"></a></li>
+            <li class="header__nav-link"><a href="../pages/page2.html"
+                    title="Програмирование на JavaScript: основы"></a></li>
+            <li class="header__nav-link"><a href="#" title="Логический тип и ветвление"></a></li>
+            <li class="header__nav-link"><a href="#" title="Строки. Числа"></a></li>
+            <li class="header__nav-link"><a href="#"
+                    title="Массивы и базовые методы работы с ними. Практикуемся с командой debugger"></a></li>
+            <li class="header__nav-link"><a href="#" title="циклы"></a></li>
+            <li class="header__nav-link"><a href="#" title="Ассоциативные массивы"></a></li>
+            <li class="header__nav-link"><a href="#" title="итоги"></a></li>
+            <li class="header__nav-link"><a href="#" title="обратная связь"></a></li>
+        </ul>
+    </div>
+    <!-- main -->
+    <div class="main">
+        <div class="content">
+            <figure>
+                <img src="../img/svg/m10_cover_true_and_false.svg" width="40%" alt="">
+            </figure>
+
+            <p>
+                <span class="content-box-text">Boolean</span> (Булев или логический тип данных) — примитивный тип данных
+                в информатике, который может
+                принимать только два возможных значения, иногда называемых истиной (true) и ложью (false). True и false
+                также называются булевыми (логическими) литералами*.
+            </p>
+            <div class="content-box">
+                <p>
+                <span class="content-box-text">*Литерал</span> — запись, представляющая собой фиксированное значение и использующаяся в JS для представления
+                значений. Читайте подробнее о литералах в <a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Grammar_and_types#%D0%9B%D0%B8%D1%82%D0%B5%D1%80%D0%B0%D0%BB%D1%8B">документации</a>.
+            </p>
+            </div>
+            <p>Булевый литерал не содержит кавычек (так как с кавычками это была бы уже строка).</p>
+            <p>В <em>JS true</em> или <em>false</em> могут означать и другие значения, благодаря приведению типов.</p>
+            <p>Преобразование к логическому типу происходит в логическом контексте или вызывается логическими операторами (&&, ||, !). Такое преобразование называется <span class="content-box-text">неявным</span>.</p>
+
+            <table class="two">
+                <thead>
+                    <tr>
+                        <th>Возвращают false</th>
+                        <th>Возвращают true</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> 0, -0, NaN, пустая строка в любых кавычках, null, undefined, false</td>
+                        <td>Все остальные значения, включая отрицательные числа, пустой массив или объект.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><span class="content-box-text">Явное</span> преобразование происходит с использованием вызова функции Boolean:</p>
+
+            <div class="main__box-list__text">
+                <p>Boolean([123]); </p>
+                <p>true</p>
+                <p>Boolean('');</p>
+                <p>false</p>
+            </div>
+
+            <h3>Логические операторы</h3>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
