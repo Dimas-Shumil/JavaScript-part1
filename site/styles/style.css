@@ -79,8 +79,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 9%;
-    height: 10px;
+    width: 11%;
+    height: 0.4rem;
     background-color: rgb(107, 226, 107);
     border-radius: 3px;
 
