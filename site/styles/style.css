@@ -109,6 +109,7 @@ body {
 .content {
     width: 80%;
     background-color: #f3f3f3;
+    scroll-behavior: smooth;
 }
 /* зеленая рамка */
 .content-box {
