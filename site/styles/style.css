@@ -117,7 +117,7 @@ body {
     border-radius: 10px;
     padding: 10px 20px;
 }
-
+/* обертка для span */
 .content-box-text {
     color: #00b43f;
     font-weight: 900;
