@@ -147,6 +147,10 @@ body {
 }
 
 .main__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
     flex-shrink: 1;
     /* flex-grow: 1; */
     /* max-width: 200px; */
@@ -157,9 +161,10 @@ body {
     filter: drop-shadow(5px 5px 5px #666666);
     
 }
-@media (max-width: 414.9px){
+@media (max-width:319.9px){
     .main__btn {
         display: inline-block;
+        text-align: start;
         padding: 5px 5px;
     }
 }
