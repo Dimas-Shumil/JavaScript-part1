@@ -11,7 +11,7 @@
 <body>
     <div class="header">
         <ol>
-            <li>Программирование на JavaScript: основы</li>
+            <li>2.Программирование на JavaScript: основы</li>
         </ol>
         <ul class="header__nav">
             <li class="header__nav-link"><a href="../../index.html" title="Введение"></a></li>
@@ -1022,20 +1022,24 @@
             </figure>
 
             <div class="content-box">
-                Если вы хотите попрактиковаться, то можете выполнить задания в <a href="https://apps.skillfactory.ru/learning/course/course-v1:Skillfactory+FR+2020/block-v1:Skillfactory+FR+2020+type@sequential+block@068083151d5444cebc1cdd0374b008b8/block-v1:Skillfactory+FR+2020+type@vertical+block@993afc528de941d990bf1e5e671369c6">тренажёре по JavaScript</a>. Это сборник
+                Если вы хотите попрактиковаться, то можете выполнить задания в <a
+                    href="https://apps.skillfactory.ru/learning/course/course-v1:Skillfactory+FR+2020/block-v1:Skillfactory+FR+2020+type@sequential+block@068083151d5444cebc1cdd0374b008b8/block-v1:Skillfactory+FR+2020+type@vertical+block@993afc528de941d990bf1e5e671369c6">тренажёре
+                    по JavaScript</a>. Это сборник
                 заданий, который поможет вам закрепить базовые навыки, необходимые при работе с JavaScript.
             </div>
+          <!-- button -->
             <div class="main__btn-box">
-                <button class="main__btn" type="button"><strong>&lt;</strong> Предыдущий урок</button>
-                <button class="main__btn" type="button">Следующий урок <strong>&gt;</strong></button>
+                <a href="../../index.html" class="previous">&laquo; Назад</a>
+                <a href="../pages/page3.html" class="next">Вперед &raquo;</a>
             </div>
             <div class="main__btn-box-o">
-                <button class="main__btn-o" type="button"><strong>&lt;</strong></button>
-                <button class="main__btn-o" type="button"><strong>&gt;</strong></button>
+                <a href="../../index.html" class="previous round">&#8249;</a>
+                <a href="page3.html" class="next round">&#8250;</a>
             </div>
-
+            <button onclick="topFunction()" id="myBtn" title="Перейти к началу">вверх</button>
         </div>
     </div>
+    <script async src="../script/js.js"></script>
 </body>
 
 </html>
