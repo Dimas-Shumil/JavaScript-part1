@@ -58,6 +58,7 @@ h4 {
 /* body */
 body {
     background-color: aliceblue;
+    width: 100%;
 }
 .header {
     width: 90%;
@@ -152,8 +153,8 @@ body {
     align-items: center;
     gap: 3px;
     flex-shrink: 1;
-    /* flex-grow: 1; */
-    /* max-width: 200px; */
+   
+   
     cursor: pointer;
     padding: 10px 15px;
     margin: 10px 0px 20px 50px;
@@ -161,13 +162,23 @@ body {
     filter: drop-shadow(5px 5px 5px #666666);
     
 }
-@media (max-width:319.9px){
-    .main__btn {
-        display: inline-block;
-        text-align: start;
-        padding: 5px 5px;
-    }
+.main__btn-box-o {
+    width: 100%;
+    display: none;
+    justify-content: center;
+    max-width: 100px;
+    padding: 3px 6px;
+
+
 }
+ @media (max-width:700.9px){
+    .main__btn-box {
+        display: none;
+    }
+    .main__btn-box-o {
+        display: flex;
+    }
+}  
 
 figure {
     text-align: center;
