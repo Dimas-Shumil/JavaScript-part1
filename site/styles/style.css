@@ -59,7 +59,6 @@ h4 {
 body {
     background-color: aliceblue;
 }
-
 .header {
     width: 90%;
     background-color: #fff;
@@ -108,7 +107,7 @@ body {
 
 .content {
     width: 80%;
-    background-color: #f3f3f3;
+    background-color: #fff;
     scroll-behavior: smooth;
 }
 /* зеленая рамка */
@@ -131,7 +130,7 @@ body {
 }
 /* серый фон */
 .main__box-list__text {
-    background-color: #e9e3e3;
+    background-color: #f3f3f3;
     padding: 15px;
     width: 80%;
     border-radius: 4px;
@@ -157,6 +156,12 @@ body {
     filter: drop-shadow(5px 5px 5px #222);
     filter: drop-shadow(5px 5px 5px #666666);
     
+}
+@media (max-width: 414.9px){
+    .main__btn {
+        display: inline-block;
+        padding: 5px 5px;
+    }
 }
 
 figure {
@@ -187,7 +192,7 @@ td {
 
 .two {
     border: 1px solid grey;
-    background-color: FFFFF7;
+    background-color: #FFFFF7;
     width: 100%;
 }
 
